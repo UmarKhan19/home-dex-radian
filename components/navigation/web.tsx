@@ -69,29 +69,37 @@ export function WebNavigation() {
 								)
 							)
 						))}
-						<ButtonDouble
-							title1={(
-								<div className={`flex gap-2 items-center`}>
-									<img className={`icon-mask max-w-4 max-h-4 -mt-1`} src={`/assets/images/icon.png`} /> {`${terms.buy} ${terms.dxr}`}
-								</div>
-							)}
-							onClick1={() => router.push(`/app/swap`)}
-							borderClass1={`p-0`}
-							title2={isConnected ? (
-								<div className={`flex gap-2 items-center`}>
-									<img src={`/assets/images/icon.png`} alt={general.project_name} className="w-4 h-4"/> {`${terms.open} ${terms.dapp}`}
-								</div>
-							) : (
-								<div className={`flex gap-2 items-center`}>
-									<Wallet className="w-4 h-4"/> {`${terms.connect}`}
-								</div>
-							)}
-							onClick2={isConnected ? (() => router.push("/app")) : (() => open())}
-							borderClass2={`button-shape gradient-border rounded-[6px] p-[2px] -my-[2px] -mr-[2px]`}
-							buttonClass2={`gradient-button-primary button-shape`}
-							borderClassMain={`flex gradient-border button-shape p-[2px] rounded-[6px] w-fit mx-auto`}
-							buttonClassMain={`flex button-shape gradient-background`}
-						/>
+						 <ButtonDouble
+          title1={
+            <div className={`flex items-center`}>
+              <img
+                className={`icon-mask max-w-4 mr-2 max-h-4 mt-1`}
+                src={`/images/home/icon.png`}
+              />
+              {`${terms.buy} ${terms.dxr}`}
+            </div>
+          }
+          onClick1={() => {}}
+          borderClass1={`p-0`}
+          title2={
+            <a
+              href="https://raiden-dex.vercel.app/?chain=ethereum"
+              target="_blank"
+              className={`flex text-[#1e1b1b] font-[500] items-center`}
+            >
+              <img
+                src={`/images/home/icon.png`}
+                alt={general.project_name}
+                className="w-4 h-4 mr-2"
+              />
+              {`Launch App`}
+            </a>
+          }
+          onClick2={() => router.push("https://raiden-dex.vercel.app/")}
+          borderClass2={`button-shape gradient-border rounded-[6px] p-[2px] -my-[2px] -mr-[2px]`}
+          borderClassMain={`hidden lg:flex gradient-border button-shape p-[2px] rounded-[6px] w-fit`}
+          buttonClassMain={`flex button-shape  gradient-background`}
+        />
 					</div>
 				</SheetContent>
 			</Sheet>
