@@ -1,0 +1,77 @@
+{
+    "section_1" : [
+        {
+            "type": "header",
+            "content": [
+                {
+                    "type": "normal",
+                    "content": "DexRaiden"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "content": [
+                {
+                    "type": "underline",
+                    "content": "Lorem ipsum"
+                },
+                {
+                    "type": "normal",
+                    "content": "dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus."
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "content": [
+                {
+                    "type": "normal",
+                    "content": "Morbi convallis convallis diam sit"
+                },
+                {
+                    "type": "underline",
+                    "content": "amet lacinia."
+                },
+                {
+                    "type": "normal",
+                    "content": "Aliquam in elementum tellus."
+                }
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "icon": "/assets/images/stake.png",
+            "counter": "+35",
+            "headline": "Staking Pools",
+            "subheadline": "Dex Raiden",
+            "button": "Stake Now",
+            "link": ""
+        },
+        {
+            "icon": "/assets/images/launchpad.png",
+            "counter": "+12",
+            "headline": "Launchpad Done",
+            "subheadline": "Dex Raiden",
+            "button": "Launch Your Project",
+            "link": ""
+        },
+        {
+            "icon": "/assets/images/liquidity.png",
+            "counter": "+09",
+            "headline": "Liquidity Pools",
+            "subheadline": "Dex Raiden",
+            "button": "Launch Your Project",
+            "link": ""
+        },
+        {
+            "icon": "/assets/images/swap.png",
+            "counter": "+22",
+            "headline": "Swap Tokens",
+            "subheadline": "Dex Raiden",
+            "button": "Swap Now",
+            "link": ""
+        }
+    ]
+}

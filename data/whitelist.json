@@ -1,0 +1,172 @@
+{
+    "token": {
+        "eth": [
+            {
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "decimals": 18,
+                "icon": "https://etherscan.io/images/svg/brands/ethereum-original.svg",
+                "address": "0x0000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Wrapped Ether",
+                "symbol": "WETH",
+                "decimals": 18,
+                "icon": "https://etherscan.io/token/images/weth_28.png",
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            },
+            {
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "decimals": 6,
+                "icon": "https://etherscan.io/token/images/centre-usdc_28.png",
+                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            },
+            {
+                "name": "Tether USD",
+                "symbol": "USDT",
+                "decimals": 6,
+                "icon": "https://etherscan.io/token/images/tethernew_32.png",
+                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            }
+        ],
+        "polygon_pos": [
+            {
+                "name": "MATIC",
+                "symbol": "MATIC",
+                "decimals": 18,
+                "icon": "https://polygonscan.com/assets/poly/images/svg/logos/token-light.svg",
+                "address": "0x0000000000000000000000000000000000000000"
+            }
+        ],
+        "bsc": [
+            {
+                "name": "BNB",
+                "symbol": "BNB",
+                "decimals": 18,
+                "icon": "https://bscscan.com/assets/bsc/images/svg/logos/token-light.svg",
+                "address": "0x0000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Dex Raiden",
+                "symbol": "DXR",
+                "decimals": 18,
+                "icon": "https://bscscan.com/token/images/dexraiden_32.png",
+                "address": "0x5fb7097e62979907B4e71a5989cF695D635890C0"
+            },
+            {
+                "name": "USD Coin",
+                "symbol": "USDC",
+                "decimals": 18,
+                "icon": "https://bscscan.com/token/images/centre-usdc_28.png",
+                "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+            },
+            {
+                "name": "Tether USD",
+                "symbol": "USDT",
+                "decimals": 18,
+                "icon": "https://bscscan.com/token/images/busdt_32.png",
+                "address": "0x55d398326f99059fF775485246999027B3197955"
+            }
+        ]
+    },
+    "network": {
+        "eth": {
+            "id": 1,
+            "name": "Ethereum",
+            "icon": "https://etherscan.io/images/svg/brands/ethereum-original.svg",
+            "nativeCurrency": {
+                "decimals": 18,
+                "name": "Ether",
+                "symbol": "ETH"
+            },
+            "rpcUrls": {
+                "default": {
+                    "http": [
+                        "https://ethereum-rpc.publicnode.com"
+                    ]
+                }
+            },
+            "blockExplorers": {
+                "default": {
+                    "name": "Etherscan",
+                    "url": "https://etherscan.io",
+                    "apiUrl": "https://api.etherscan.io/api"
+                }
+            },
+            "contracts": {
+                "ensRegistry": {
+                    "address": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+                },
+                "ensUniversalResolver": {
+                    "address": "0xce01f8eee7E479C928F8919abD53E553a36CeF67",
+                    "blockCreated": 19258213
+                },
+                "multicall3": {
+                    "address": "0xca11bde05977b3631167028862be2a173976ca11",
+                    "blockCreated": 14353601
+                }
+            }
+        },
+        "polygon_pos": {
+            "id": 137,
+            "name": "Polygon",
+            "icon": "https://polygonscan.com/assets/poly/images/svg/logos/chain-light.svg",
+            "nativeCurrency": {
+                "decimals": 18,
+                "name": "MATIC",
+                "symbol": "MATIC"
+            },
+            "rpcUrls": {
+                "default": {
+                    "http": [
+                        "https://polygon-bor-rpc.publicnode.com"
+                    ]
+                }
+            },
+            "blockExplorers": {
+                "default": {
+                    "name": "PolygonScan",
+                    "url": "https://polygonscan.com",
+                    "apiUrl": "https://api.polygonscan.com/api"
+                }
+            },
+            "contracts": {
+                "multicall3": {
+                    "address": "0xca11bde05977b3631167028862be2a173976ca11",
+                    "blockCreated": 25770160
+                }
+            }
+        },
+        "bsc": {
+            "id": 56,
+            "name": "BNB Smart Chain",
+            "icon": "https://bscscan.com/assets/bsc/images/svg/logos/chain-light.svg",
+            "nativeCurrency": {
+                "decimals": 18,
+                "name": "BNB",
+                "symbol": "BNB"
+            },
+            "rpcUrls": {
+                "default": {
+                    "http": [
+                        "https://bsc-rpc.publicnode.com"
+                    ]
+                }
+            },
+            "blockExplorers": {
+                "default": {
+                    "name": "BscScan",
+                    "url": "https://bscscan.com",
+                    "apiUrl": "https://api.bscscan.com/api"
+                }
+            },
+            "contracts": {
+                "multicall3": {
+                    "address": "0xca11bde05977b3631167028862be2a173976ca11",
+                    "blockCreated": 15921452
+                }
+            }          
+        }
+    }
+}

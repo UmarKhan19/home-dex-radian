@@ -1,0 +1,147 @@
+{
+    "project_name": "DexRaiden",
+    "project_description": "DexRaiden",
+    "terms": {
+        "connect": "Connect",
+        "wallet": "Wallet",
+        "balance": "Balance",
+        "loading": "Loading",
+        "swapping": "Swapping",
+        "slippage": "Slippage",
+        "max": "Max",
+        "open": "Open",
+        "dapp": "dApp",
+        "price": "Price",
+        "dxr": "DXR",
+        "swap": "Swap",
+        "bridge": "Bridge",
+        "buy": "Buy",
+        "error": "Error",
+        "found": "Found",
+        "home": "Home",
+        "unauthorized": "Unauthorized",
+        "searching": "Searching",
+        "rate_limit": "Rate limit exceeded",
+        "enter_slippage": "Enter slippage percentage",
+        "update_slippage": "Update slippage",
+        "slippage_description": "Slippage range between 0.05% - 49.00%",
+        "go_back": "Go back",
+        "get_quote": "Get quote",
+        "copyright": "All rights reserved.",
+        "powered_by": "Powered by",
+        "coming_soon": "Coming soon",
+        "try_again": "Try again",
+        "not_found": "Not found",
+        "minimum_received": "Minimum received",
+        "price_impact": "Price impact",
+        "trading_fee": "Trading fee",
+        "token_not_found": "No token found",
+        "network_not_found": "No network found",
+        "available_route": "Available route",
+        "under_development": "This section is currently under development.",
+        "something_wrong": "Something went wrong!",
+        "missing_resource": "Could not find requested resource",
+        "insufficient_fund": "Insufficient fund",
+        "select_token": "Select a token",
+        "common_bases": "Common bases",
+        "token_list": "Token list",
+        "network_list": "Network list",
+        "other_providers": "Use other provider",
+        "other_providers_description": "Swap using your preferred provider",
+        "insufficient_allowance": "Insufficient allowance",
+        "instant_token_trade": "Trade token in an instant",
+        "buy_crypto_here": "Buy crypto here",
+        "price_retrieve_successful": "Price retrieved successfully",
+        "balance_retrieve_successful": "Balance retrieved successfully",
+        "search_paste_address": "Search or paste a token address"
+    },
+    "menu": {
+        "sidebar": [
+            {
+                "id": "dashboard",
+                "title": "Dashboard",
+                "link": "/app",
+                "type": "internal"
+            },
+            {
+                "id": "swap",
+                "title": "Swap",
+                "link": "/app/swap",
+                "type": "internal"
+            },
+            {
+                "id": "bridge",
+                "title": "Bridge",
+                "link": "/app/bridge",
+                "type": "internal"
+            },
+            {
+                "id": "stake",
+                "title": "Stake",
+                "link": "/app/stake",
+                "type": "internal"
+            },
+            {
+                "id": "launchpad",
+                "title": "Launchpad",
+                "link": "/app/launchpad",
+                "type": "internal"
+            }
+        ],
+        "header": [
+            {
+                "id": "home",
+                "title": "Home",
+                "link": "/",
+                "type": "internal"
+            },
+            {
+                "id": "about",
+                "title": "About Us",
+                "link": "/about",
+                "type": "internal"
+            },
+            {
+                "id": "team",
+                "title": "Team",
+                "link": "/team",
+                "type": "internal"
+            },
+            {
+                "id": "whitepaper",
+                "title": "Whitepaper",
+                "link": "https://dex-raiden.gitbook.io/dexraiden_whitepaper",
+                "type": "external"
+            },
+            {
+                "id": "dapps",
+                "title": "Dapps",
+                "link": "/app",
+                "type": "internal"
+            }
+        ]
+    },
+    "socials": [
+        {
+            "id": "telegram",
+            "link": "https://t.me/dexraidenoficialbr/1",
+            "title": "DexRaiden Telegram"
+        },
+        {
+            "id": "x",
+            "link": "https://x.com/dexraiden",
+            "title": "DexRaiden X"
+        },
+        {
+            "id": "instagram",
+            "link": "https://www.instagram.com/dxrswap",
+            "title": "DexRaiden Instagram"
+        }
+    ],
+    "development": {
+        "development_year": "2024",
+        "name": "Revoluzion",
+        "link": "https://revoluzion.app",
+        "title": "Revoluzion | Revolutionizing the Blockchain Industry as a One-Stop Service Provider" 
+    }
+}
