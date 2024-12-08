@@ -25,7 +25,7 @@ export function WebNavigation() {
 				<SheetTrigger asChild>
                     <Menu className={`min-h-10 min-w-10 hover:scale-105`} />
 				</SheetTrigger>
-				<SheetContent side={`top`} className={`h-360px max-h-[60vh] gradient-header items-center`}>
+				<SheetContent side={`top`} className={`min-h-[100vh] gradient-header items-center`}>
 					<SheetHeader>
 						<SheetTitle>
 							<div className={`flex gap-3 items-center w-fit mx-auto`}>
