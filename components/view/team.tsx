@@ -35,8 +35,16 @@ const Team = () => {
 	return (
 		<div className="flex flex-col justify-center gap-6 px-4 items-center w-full">
 			<div className="lg:w-[60%] md:w-[70%]   text-center">
-				<h1 className="text-4xl font-semibold !font-avenixel mb-6" style="font-size: 63.18px;">Team</h1>
-				<p className="px-4 md:px-20 lg:px-36 text-sm text-left font-avenixel  text-white" style="font-size: 23.18px;">
+				<h1
+					className="text-4xl font-semibold !font-avenixel mb-6"
+					style={{ fontSize: "63.18px" }}
+				>
+					Team
+				</h1>
+				<p
+					className="px-4 md:px-20 lg:px-36 text-sm text-left font-avenixel  text-white"
+					style={{ fontSize: "23.18px" }}
+				>
 					For <span className="gradient-underline font-nunito">success</span>,
 					everything comes down to a focused team with market knowledge, get to know{" "}
 					<span className="gradient-underline">our team!</span>
