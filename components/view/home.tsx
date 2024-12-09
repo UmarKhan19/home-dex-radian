@@ -42,7 +42,7 @@ export default function Home() {
                 {`Launch App`}
               </a>
             }
-            onClick={isConnected ? () => router.push("/app") : () => open()}
+           
             borderClass={`button-shape gradient-border rounded-[6px] p-[2px] -my-[2px] -mr-[2px]`}
             buttonClass={`gradient-button-primary button-shape p-6`}
           />
