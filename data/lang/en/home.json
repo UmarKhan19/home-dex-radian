@@ -47,23 +47,23 @@
       "headline": "Staking Pools",
       "subheadline": "Dex Raiden",
       "button": "Stake Now",
-      "link": ""
+      "link": "https://raiden-dex.vercel.app/stake?chain=ethereum"
     },
     {
       "icon": "/assets/images/launchpad.png",
       "counter": "+12",
       "headline": "Launchpad Done",
       "subheadline": "Dex Raiden",
-      "button": "Launch Your Project",
-      "link": ""
+      "button": "Launchpad",
+      "link": "https://raiden-dex.vercel.app/bridge?chain=ethereum&token=DXR"
     },
     {
       "icon": "/assets/images/liquidity.png",
       "counter": "+09",
       "headline": "Liquidity Pools",
       "subheadline": "Dex Raiden",
-      "button": "Launch Your Project",
-      "link": ""
+      "button": "Liquidity",
+      "link": "https://raiden-dex.vercel.app/liquidity?chain=ethereum"
     },
     {
       "icon": "/assets/images/swap.png",
@@ -71,7 +71,7 @@
       "headline": "Swap Tokens",
       "subheadline": "Dex Raiden",
       "button": "Swap Now",
-      "link": ""
+      "link": "https://raiden-dex.vercel.app/swap?chain=ethereum"
     }
   ]
 }
