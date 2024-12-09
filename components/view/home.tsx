@@ -105,19 +105,19 @@ function sectionOneProcessor({ item, index }) {
   );
 }
 
+
 function cardProcessor(item) {
   return (
     <div
-      className={`grid grid-cols-1 gap-2 justify-center text-center items-center h-full`}
+      className={`grid grid-cols-1 gap-2  text-uppercase text-center justify-center items-center h-full`}
     >
       <div className={`mx-auto`}>
         <img src={item.icon} alt={item.headline} />
       </div>
-     
-        
-          <div className={`text-lg font-bold`}>{item.headline}</div>
-          <div className={`text-xs`}>{item.subheadline}</div>
-   
+
+      <div className={`text-lg font-bold`}>{item.headline}</div>
+      <div className={`text-xs`}>{item.subheadline}</div>
     </div>
   );
 }
+
